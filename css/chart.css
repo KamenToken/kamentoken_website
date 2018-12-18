@@ -1,0 +1,113 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:400);
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /*background: #ddd;*/
+  font-family: "Oswald", "Helvetica Newe", Helvetica, sans-serif;
+}
+.chart {
+  position: absolute;
+  width: 500px;
+  height: 700px;
+  top: 65%;
+  left: 45%;
+  margin: -225px 0 0 -225px;
+}
+.pieTip {
+  position: absolute;
+  float: left;
+  min-width: 30px;
+  max-width: 300px;
+  padding: 5px 18px 6px;
+  border-radius: 2px;
+  background: rgba(255,255,255,.97);
+  color: #444;
+  font-size: 19px;
+  text-shadow: 0 1px 0 #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.3;
+  letter-spacing: .06em;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2), 0 1px 2px rgba(0,0,0,0.5);
+  -webkit-transform: all .3s;
+     -moz-transform: all .3s;
+      -ms-transform: all .3s;
+       -o-transform: all .3s;
+          transform: all .3s;
+  pointer-events: none;
+}
+.pieTip:after {
+      position: absolute;
+      left: 50%;
+      bottom: -6px;
+      content: "";
+      height: 0;
+      margin: 0 0 0 -6px;
+      border-right: 5px solid transparent;
+      border-left: 5px solid transparent;
+      border-top: 6px solid rgba(255,255,255,.95);
+      line-height: 0;
+}
+.chart path { cursor: pointer; }
+.chart svg{
+  width: 400px;
+  height: 500px;
+
+}
+.chart2{
+  position: absolute;
+  right: -100px;
+}
+
+/*end*/
+
+.pieID {
+  display: inline-block;
+  vertical-align: top;
+      margin-top: 225px !important;
+    margin-left: 50px !important;
+}
+
+
+.legend {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #FFF;
+  padding: 15px;
+  font-size: 13px;
+  box-shadow: 1px 1px 0 #DDD,
+              2px 2px 0 #BBB;
+}
+.legend li {
+  width: 160px;
+  height: 1.25em;
+  margin-bottom: 0.7em;
+  padding-left: 0.5em;
+}
+.legend .cell-ico{
+    border-left: 1.25em solid #fff100;
+}
+.legend .marketing{
+    border-left: 1.25em solid #fe4400;
+}
+
+.legend .team{
+    border-left: 1.25em solid #018ab6;
+}
+.legend .airdrop{
+    border-left: 1.25em solid #2C3E50;
+}
+.legend .dev{
+    border-left: 1.25em solid green;
+}
+
+.legend em {
+  font-style: normal;
+}
+.legend span {
+  float: right;
+}
+  

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
+.faq-block {
+  /* dio koji je već na webu - početak */
+  font-family: 'Source Sans Pro','sansation', sans-serif;
+  background-color: rgb(250, 247, 245);
+  font-size: 18px;
+  /* dio koji je već na webu - kraj */
+  border-bottom: 1px dotted #ddd;
+  cursor:pointer;
+  margin-bottom: 0.5em;
+  padding-bottom: 10px;
+}
+
+.faq-block:hover{
+  -webkit-transition: all 200ms;
+  -o-transition: all 200ms;
+  -moz-transition: all 200ms;
+  transition: all 200ms;
+  background-color:rgb(225, 225, 245);
+}
+
+.faq-block ul {
+	list-style-type: square;
+}
+
+.faq-plus {
+  color: #ffcc00;
+  float:left;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  transition: all 200ms;
+}
+
+.faq-expand {
+  -webkit-transform: rotate(-45deg);
+  -webkit-transform-origin: 50% 50%;
+  -webkit-transition: all 200ms;
+  -moz-transform: rotate(-45deg);
+  -moz-transform-origin: 50% 50%;
+  -moz-transition: all 200ms;
+  transform: rotate(-45deg);
+  transform-origin: 50% 50%;
+  transition: all 200ms;
+}
+
+.faq-question {
+  font-weight: bold;
+  padding-top: 0.8em;
+}
+
+.faq-answer {
+  clear: both;
+  color: #777;
+  display: none;
+}

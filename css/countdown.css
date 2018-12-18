@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.countdown {
+  color: white;
+  text-align: center;
+}
+
+.countdown h1 {
+  font-weight: normal;
+}
+
+.countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.countdown li span {
+    display: block;
+    font-size: 7rem;
+    padding: 10px 10px;
+}
