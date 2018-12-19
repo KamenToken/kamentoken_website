@@ -69,7 +69,7 @@
 							<li><a href="#raiting">ICO Ratings</a></li>
 							<li><a href="#team">Team</a></li>
 							<li><a href="#faqs">FAQs</a></li>
-							<li><a href="form/checkairdrop.php" target="_blank">Airdrop</a></li>
+							<li><a href="#" target="_blank">Airdrop</a></li>
 						</ul>
 						<!-- <ul class="nav navbar-nav ml-auto navbar-right">
 								<a href="https://www.facebook.com/KamenToken/" target="_blank">
